@@ -1,0 +1,142 @@
+* { margin: 0; padding: 0; }
+
+main {
+    display: block;
+    width: 1200px;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+
+    background: #F9BDBD;
+}
+
+main h1 {
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
+}
+
+main h2 {
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 320px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+aside h2 {
+    position: relative;
+    width: auto;
+    height: 40px;
+    left: 40px;
+    /* top: 702px; */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+
+}
+
+aside p {
+    position: relative;
+    left: 3.33%;
+    right: 34.92%;
+    /* top: 25.53%;
+    bottom: 61.33%; */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+    text-align: justify;
+
+    color: #000000;
+
+}
+
+li {
+    position: relative;
+    margin: 10px;
+    left: 50px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+    text-align: justify;
+
+    color: #000000;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    width: 1200px;
+    height: 301px;
+
+    background: #bebebe;
+}
+
+footer h2 {
+    position: relative;
+    /* width: 81px; */
+    height: 25px;
+    left: 30px;
+    top: 30px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #333333;
+}
+
+footer a {
+    position: relative;
+    width: 60px;
+    height: 19px;
+    top: 40px;
+    left: 40px;
+
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #8D8D8D;
+}
