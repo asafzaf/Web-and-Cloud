@@ -10,9 +10,34 @@ main {
     background: #F9BDBD;
 }
 
+.profilePicture {
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    left: 88px;
+    top: 253px;
+
+    background-repeat: no-repeat;
+    background-image: url(../images/profilepicture.png);
+}
+
+.pictureBackground {
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 40px;
+    top: 206px;
+
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+
+    background: #F7DEA6;
+}
+
 main h1 {
     position: absolute;
-    width: 448px;
+    width: 600px;
     height: 98px;
     left: 506px;
     top: 206px;
@@ -28,7 +53,7 @@ main h1 {
 
 main h2 {
     position: absolute;
-    width: 448px;
+    width: 600px;
     height: 66px;
     left: 506px;
     top: 320px;
@@ -67,6 +92,7 @@ aside p {
     right: 34.92%;
     /* top: 25.53%;
     bottom: 61.33%; */
+    width: 800px;
 
     font-family: 'Rubik';
     font-style: normal;
@@ -95,6 +121,16 @@ li {
     text-align: justify;
 
     color: #000000;
+}
+
+aside div {
+    position: relative;
+    margin: 20px;
+    width: 1120px;
+    height: 508px;
+    left: 40px;
+
+background: #F9BDBD;
 }
 
 footer {
@@ -139,4 +175,21 @@ footer a {
     /* identical to box height */
 
     color: #8D8D8D;
+}
+
+footer a:hover {
+        color: #f0f1f0;
+        text-decoration:underline;
+}
+
+.rights {
+    position: relative;
+    bottom: 10px;
+
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
 }
