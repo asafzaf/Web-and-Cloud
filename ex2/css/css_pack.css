@@ -1,5 +1,15 @@
 * { margin: 0; padding: 0; }
 
+.logo {
+    display: block;
+    background-image: url(../images/rsz_rsz_donald_duck-xmini.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
 main {
     display: block;
     width: 1200px;
@@ -16,7 +26,7 @@ main {
     width: 250px;
     height: 350px;
     left: 88px;
-    top: 253px;
+    top: 170px;
 
     background-repeat: no-repeat;
     background-image: url(../images/profilepicture.png);
@@ -27,7 +37,7 @@ main {
     width: 278px;
     height: 388px;
     left: 40px;
-    top: 206px;
+    top: 123px;
 
     border-top-right-radius: 75px;
     border-bottom-left-radius: 75px;
@@ -40,7 +50,7 @@ main h1 {
     width: 600px;
     height: 98px;
     left: 506px;
-    top: 206px;
+    top: 123px;
 
     font-family: 'Nunito';
     font-style: normal;
@@ -56,7 +66,7 @@ main h2 {
     width: 600px;
     height: 66px;
     left: 506px;
-    top: 320px;
+    top: 193px;
 
     font-family: 'Nunito';
     font-style: normal;
@@ -72,7 +82,7 @@ aside h2 {
     width: auto;
     height: 40px;
     left: 40px;
-    /* top: 702px; */
+    margin: 15px;
 
     font-family: 'Rubik';
     font-style: normal;
@@ -107,10 +117,57 @@ aside p {
 
 }
 
+.ex {
+    display: inline-block;
+}
+
+.ex_container {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 18%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ex_container:nth-child(1) {
+    background-color: #FDEDE5;
+}
+
+.ex_container:nth-child(2) {
+    background-color: #EBF1FF;
+}
+
+.ex_container:nth-child(3) {
+    background-color: #EBFFEC;
+}
+
+.ex_container:child4 {
+    background-color: #FFEBFC;
+}
+
+.ex_container:child5 {
+    background-color: #FFFEEB;
+}
+
+.view_button {
+    width: 88px;
+    height: 24px;
+    top: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+}
+
 li {
     position: relative;
     margin: 10px;
-    left: 50px;
+    left: 80px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
