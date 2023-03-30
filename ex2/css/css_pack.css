@@ -1,5 +1,9 @@
 * { margin: 0; padding: 0; }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     display: block;
     background-image: url(../images/rsz_rsz_donald_duck-xmini.png);
@@ -7,7 +11,20 @@
     background-size: contain;
     margin: 10px;
     height: 30px;
-    width: 30px;
+    /* width: 30px; */
+}
+
+.logo h1 {
+    position: relative;
+    left: 60px;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
 }
 
 main {
@@ -77,7 +94,7 @@ main h2 {
     color: #000000;
 }
 
-aside h2 {
+.title {
     position: relative;
     width: auto;
     height: 40px;
@@ -100,16 +117,12 @@ aside p {
     position: relative;
     left: 3.33%;
     right: 34.92%;
-    /* top: 25.53%;
-    bottom: 61.33%; */
     width: 800px;
-
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 140.62%;
-    /* or 28px */
 
     text-align: justify;
 
@@ -117,51 +130,77 @@ aside p {
 
 }
 
-.ex {
-    display: inline-block;
+.ex_container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.ex_container {
-    display: inline-block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
-    width: 18%;
+.ex_card {
+    display: grid;
+    height: 264px;
+    width: 200px;
     border-radius: 20px;
     overflow: hidden;
 }
 
-.ex_container:nth-child(1) {
+.ex_card h2 {
+    position: absolute;
+    font-family: 'Rubik';
+    font-size: 16;
+    left: 24px;
+    bottom: 112px;
+}
+
+.ex_card:nth-child(1) {
     background-color: #FDEDE5;
 }
 
-.ex_container:nth-child(2) {
+.ex_card:nth-child(2) {
     background-color: #EBF1FF;
 }
 
-.ex_container:nth-child(3) {
+.ex_card:nth-child(3) {
     background-color: #EBFFEC;
 }
 
-.ex_container:child4 {
+.ex_card:nth-child(4) {
     background-color: #FFEBFC;
 }
 
-.ex_container:child5 {
+.ex_card:nth-child(5) {
     background-color: #FFFEEB;
 }
 
-.view_button {
-    width: 88px;
-    height: 24px;
-    top: 8px;
+.ex_card a {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    left: 24px;
+    top: 184px;
+    text-decoration: none;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.view_button {
+    position: absolute;
+    height: 24px;
+    left: 16.84px;
+    right: 14.74px;
+    top: 8px;
+}
+
+.card_image {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 li {
@@ -180,7 +219,7 @@ li {
     color: #000000;
 }
 
-aside div {
+aside section {
     position: relative;
     margin: 20px;
     width: 1120px;
@@ -188,6 +227,44 @@ aside div {
     left: 40px;
 
 background: #F9BDBD;
+}
+
+.my_choice {
+    position: absolute;
+    width: 600px;
+    height: 98px;
+    left: 706px;
+    top: 123px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #3E3F43;
+}
+
+.my_choice2 {
+    position: absolute;
+    width: 600px;
+    height: 66px;
+    left: 706px;
+    top: 193px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.my_choice3 {
+    position: absolute;
+    left: 40px;
+    top: 100px;
 }
 
 footer {
