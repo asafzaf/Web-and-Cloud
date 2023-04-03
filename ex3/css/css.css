@@ -1,0 +1,133 @@
+* { margin: 0px; padding: 0px; }
+
+#wrapper {
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+}
+
+header {
+    display: block;
+    width: 1440px;
+    height: 123px;
+    
+    justify-content: center;
+    align-items: center;
+
+    background: #F2E9E9;
+}
+
+header>nav {
+    display: block;
+    
+    justify-content: center;
+    /* align-items: center;
+    text-align: center; */
+    padding: 52px 0;
+}
+
+.nav_text {
+    margin: 9px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.main_center {
+    width: 881px;
+    margin: 0px auto;
+    display: block;
+
+    position: relative;
+    width: 881px;
+    height: 624px;
+    left: 244px;
+    top: 214px;
+}
+
+main>h1 {
+    display: flex;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+main>h3 {
+    display: flex;
+    display: flex;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+aside {
+    /* float: right; */
+    /* display: flex; */
+    width: 169px;
+    height: 1860px;
+    background: #EBEF18;
+}
+
+footer {
+    width: 1440px;
+    height: 41px;
+
+    background: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+#ellipse_layout1 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 618px;
+    top: 34px;
+
+    border-radius: 14px;
+
+    background: #F72828;
+}
+
+#ellipse_layout2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 700px;
+    top: 34px;
+
+    border-radius: 14px;
+
+    background: #F72828;
+}
+
+#ellipse_layout {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    bottom: 50px;
+
+    border-radius: 14px;
+
+    background: #F72828;
+}
+
+.grids {
+    /* display: flex; */
+    width: 1271px;
+    height: 1860px;
+    background: #F72828;
+}
