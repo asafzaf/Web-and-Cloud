@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/css_pack.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amiko">
     <title>Layout 1 - index</title>
 </head>
 <body>
     <header id="wrapper">
-        <nav id="wrapper">
-            <div id="ellipse_layout2"></div>
-            <a href="index.html"><span class="nav_text">MIX</span></a>
-            <a href="layout2.html"><span class="nav_text">STAIRS</span></a>
-            <a href="layout3.html"><span class="nav_text">DYNAMIC</span></a>
+        <ul class="navigation">
+            <!-- <div id="ellipse_layout1"></div> -->
+            <li><a href="index.html">MIX</a></li>
+            <li><a href="layout2.html">STAIRS</a></li>
+            <li><a href="layout3.html">DYNAMIC</a></li>
         </nav>
     </header>
-    <section id="bigbox">
-        <main class="main_center">
-            <h1>- M I X</h1>
-            <h3>Mix layout for any creative idea</h3>
+    <div id="wrapper">
+        <main id="layout1_main">
+            <section>
+                <h1>- M I X</h1>
+                <h3>Mix layout for any creative idea</h3>
+            </section>
+            <section style="clear: unset;">
+                <section id="yellow_square" class="rectangle1"></section>
+            </section>
         </main>
-    </section>
+        <section class="gridbox"></section>
+    </div>
     
     <footer id="wrapper">
     </footer>
