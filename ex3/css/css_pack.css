@@ -84,6 +84,8 @@ ul.rectangle_list {
     display: block;
 }
 
+
+
 ul.rectangle_list li  {
     display: block;
     height: 299px;
@@ -204,41 +206,21 @@ aside>ul>li a {
 }
 
 footer {
+    display: block;
     width: 1440px;
     height: 41px;
+    position: fixed;
+    bottom: 0px;
 
     background: #000000;
 }
 
-#ellipse_layout1 {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    left: 618px;
-    top: 34px;
-
-    border-radius: 14px;
-
-    background: #F72828;
-}
-
-#ellipse_layout2 {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    left: 700px;
-    top: 34px;
-
-    border-radius: 14px;
-
-    background: #F72828;
-}
-
-#ellipse_layout {
+.ellipse_layout {
     position: relative;
     width: 14px;
     height: 14px;
     bottom: 50px;
+    left: 30px;
 
     border-radius: 14px;
 
@@ -254,3 +236,85 @@ footer {
     width: 75px;
     height: 23px;
 }
+
+@media only screen and (max-width:1420px){
+
+    #wrapper {
+        width: 850px;
+        margin: 0px auto;
+        display: block;
+    }
+    
+    header {
+        display: block;
+        width: 850px;
+        height: 123px;
+        
+        justify-content: center;
+        align-items: center;
+    
+        background: #F2E9E9;
+    }
+
+    ul.navigation {
+        display: flex;
+        list-style-type: none;
+        
+        justify-content: center;
+
+        padding: 30px;
+    }
+    
+    ul.navigation li a {
+        list-style-type: none;
+    
+        text-decoration: none;
+        color: #000;
+    
+        margin: 9px;
+        font-family: 'Amiko';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #layout3_main {
+        /* display: flex; */
+        align-items: center;
+    
+        justify-items: center;
+        justify-content: center;
+        width: 850px;
+        height: 1346px;
+    }
+
+    #layout3_aside {
+        width: 850px;
+        height: 105px;
+        align-items: center;
+        background: #E5E5E5;
+    }
+    
+    #layout3_aside2 {
+        display: none;
+    }
+    
+    #layout3_bottom {
+        width: 850px;
+        height: 409px;
+        background: #EBEF18;
+    }
+
+    footer {
+        width: 850px;
+        height: 41px;
+    
+        background: #000000;
+    }
+
+    #square_black {
+        display: none;
+    }
+}
+
