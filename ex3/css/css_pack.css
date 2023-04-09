@@ -6,6 +6,10 @@
     display: flex;
 }
 
+.flex_box {
+    display: flex;
+}
+
 header {
     display: block;
     width: 1440px;
@@ -46,10 +50,11 @@ ul.navigation li a:hover {
 
 #layout1_main {
     display: flex;
+    margin: 0 auto;
+    align-content: space-around;
     align-items: center;
-
-    justify-items: center;
-    justify-content: center;
+    justify-items: stretch;
+    justify-content: space-around;
     width: 881px;
     height: 624px;
 
@@ -58,6 +63,7 @@ ul.navigation li a:hover {
 #layout2_main {
     display: flex;
     align-items: center;
+    margin-top: 119px;
 
     justify-items: center;
     justify-content: center;
@@ -75,11 +81,6 @@ ul.navigation li a:hover {
     height: 995px;
 }
 
-.gridbox {
-    width: 437px;
-    height: 608px;
-}
-
 ul.rectangle_list {
     display: block;
 }
@@ -90,7 +91,8 @@ ul.rectangle_list li  {
     display: block;
     height: 299px;
     width: 457px;
-    margin: 35px;
+    margin-bottom: 70px;
+    margin-right: 35px;
     background: #C4C4C4; 
 }
 
@@ -116,7 +118,7 @@ aside {
     /* float: right; */
     display: block;
     width: 169px;
-    height: 1860px;
+    height: 1950px;
     background: #EBEF18;
 }
 
@@ -140,7 +142,7 @@ aside {
 
 aside>ul.name {
     position: relative;
-    top: 1100px;
+    top: 1200px;
     left: 48px;
 }
 
@@ -188,12 +190,12 @@ aside>ul>li a {
 
 .square2 {
     position: relative;
-    top: 616px;
+    top: 516px;
 }
 
 .square3 {
     position: relative;
-    top: 247px;
+    top: 167px;
     left: 89px;
 }
 
@@ -233,8 +235,73 @@ footer {
 }
 
 .rectangle1 {
+    margin-top: 15px;
     width: 75px;
     height: 23px;
+    margin-bottom: 8px;
+}
+
+.rectangle2 {
+    height: 46px;
+    width: 136px;
+    margin-bottom: 11px;
+}
+
+.rectangle3 {
+    height: 404px;
+    width: 134px;
+    margin-bottom: 11px;
+    margin-right: 15px;
+}
+
+.rectangle4 {
+    height: 28px;
+    width: 88px;
+    margin-bottom: 7px;
+}
+
+.rectangle5 {
+    height: 26px;   
+    width: 25px;
+    margin-right: 7px;
+}
+
+.rectangle6 {
+    margin-top: 15px;
+    height: 352px;
+    width: 246px;
+    margin-right: 14px;
+    margin-bottom: 16px;
+}
+
+.rectangle7 {
+    height: 212px;
+    width: 123px;
+    margin-right: 14px;
+}
+
+.rectangle8 {
+    height: 105px;
+    width: 55px;
+    margin-right: 41px;
+    margin-bottom: 7px;
+}
+
+.rectangle9 {
+    height: 55px;
+    width: 28px;
+    margin-bottom: 11px;
+}
+
+.rectangle10 {
+    height: 198px;
+    width: 28px;
+    margin-bottom: 16px;
+}
+
+.rectangle11 {
+    height: 58px;
+    width: 110px;
 }
 
 @media only screen and (max-width:1420px){
