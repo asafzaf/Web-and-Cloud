@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/css_pack.css">
+    <link rel="stylesheet" href="./css/plants.scss">
+    <title>Shenkar's Yard</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form action="http://se.shenkar.ac.il/students/2022-2023/web1/dev_93/exercises/ex4/php/shenkaryard.php" method="get">
+                <h1>Hello there, please help us make shenkar's yard better:</h1><br>
+                <h2>In which faculty do you study or working?</h2>
+                <select class="form-select" name="faculty" aria-label="Default select example" required>
+                    <option selected>Open this select menu</option>
+                    <option value="engeineer">Engineering</option>
+                    <option value="designer">Design</option>
+                    <option value="artist">Art </option>
+                  </select><br>
+                <h2>Do you like Shenkar?</h2>
+                <label>yes <input type="radio" name="like" value="yes"></label><br>
+                <label>no <input type="radio" name="like" value="no" disabled></label><br><br>
+                <h2>What is your satisfaction with the college yard?</h2>
+                <label for="customRange3" class="form-label"></label>
+                <input type="range" name="satisfaction" class="form-range" min="1" max="10" step="1" id="customRange3" value="">
+                <h5>1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</h5><br>
+                <h2>What change would you suggest to improve the yard?</h2>
+                <div class="form-check">
+                    <input class="form-check-input" id="1" type="checkbox" name="suggests[]" value="More colorful" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      More colorful
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="2" type="checkbox" name="suggests[]" value="Snacks machines" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Snacks machines
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="3" type="checkbox" name="suggests[]" value="Add plants" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Add more plants
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="4" type="checkbox" name="suggests[]" value="More sitting spots" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        More sitting spots
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="5" type="checkbox" name="suggests[]" value="Adopt more cats" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Adopt more cats like Mitzi
+                    </label>
+                </div><br>
+                <h2>Choose an appropriate color for the yard</h2>
+                <input type="color" class="form-control form-control-color" id="exampleColorInput" name="color" value="#DDFFBB" title="Choose your color"><br>
+                <input type="submit" class="btn btn-success" value="I don't like this form, please get me out!" disabled><br><br>
+                <input type="submit" class="btn btn-success" value="submit and change shenkar yard!">
+            </form>
+            <div class="plants">
+                <div class="plant ">
+                    <div class="leaves plant-1">                  </div>
+                    </div>
+                <div class="plant plant-2">
+                    <div class="leaves plant-2">
+                    </div>
+                </div>
+                <div class="plant">
+                    <div class="leaves plant-3">
+                    </div>
+                </div>
+                <div class="plant plant-2">
+                    <div class="leaves plant-4">
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

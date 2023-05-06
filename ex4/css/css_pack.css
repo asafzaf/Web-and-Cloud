@@ -1,0 +1,27 @@
+body {
+    background-color: #DDFFBB;
+    color: #889c7a;
+}
+
+center {
+    text-align: center;
+}
+
+main {
+    width: 1440px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    width: 750px;
+}
+
+.form-check-label {
+    font-size: 20px;
+}
