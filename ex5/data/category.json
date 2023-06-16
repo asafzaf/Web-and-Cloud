@@ -1,0 +1,16 @@
+
+{ "products": [
+        {"name":"Children", "id":1},
+        {"name":"Study", "id":2},
+        {"name":"Fantasy", "id":3},
+        {"name":"Crime", "id":4},
+        {"name":"Horror", "id":5},
+        {"name":"Historical Fiction", "id":6},
+        {"name":"Humour & Satire", "id":7},
+        {"name":"Mystery", "id":8},
+        {"name":"War", "id":9},
+        {"name":"Short Stories", "id":10},
+        {"name":"Romance", "id":11},
+        {"name":"Biography", "id":12}
+    ]
+}
