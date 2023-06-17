@@ -66,8 +66,8 @@
           }
         ?>
       </h1>
-        <div class="container text-center d-flex">
-            <div class="row g-2">
+        <div class="container wrap">
+            <div class="row row-cols-2">
                 <?php
                     if(empty($_GET["category"])) {
 
@@ -92,15 +92,22 @@
                 
                         if($result->num_rows > 0) {
                             while($row = mysqli_fetch_array($result)) {
-                              echo '<div class="card" style="width: 18rem;">
-                              <img src="' . $row["url"] . '" class="card-img-top" alt="' . $row["name"] . ' image">
-                              <div class="card-body">
-                                <h5 class="card-title">' . $row["name"] . '</h5>
-                                <p class="card-text">' . $row["desc"] . '</p>
-                                <a href="./item.php?id=' . $row["id"] . '" class="btn btn-primary">Go to book page</a>
-                              </div>
-                            </div>';
-
+                              echo '  
+                                        <a class="card mb-3" style="max-width: 400px;" href="./item.php?id=' . $row["id"] . '">
+                                          <div class="row g-0">
+                                            <div class="col-md-4">
+                                              <img src="' . $row["url"] . '" class="card-img-top" alt="' . $row["name"] . ' image">
+                                            </div>
+                                              <div class="col-md-8">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">' . $row["name"] . '</h5>
+                                                  <p class="card-text">' . $row["desc"] . '</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                       
+                                      ';
                             }
                         } else {
                           echo '<div class="container d-flex justify-content-center"><div class="col"><img src="./images/no-education.png"><h3>No books found :(</h3></div></div>';

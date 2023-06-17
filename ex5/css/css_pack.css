@@ -1,5 +1,9 @@
 .container {
-    padding: 50px;
+    padding: 25px;
+}
+
+.wrap {
+    margin: auto 0;
 }
 
 .navbar {
@@ -18,8 +22,22 @@ article {
     color: #967E76;
 }
 
+.card {
+    margin: 0 5px 0 5px;
+}
+
+.card-body>p {
+    font-size: small;
+}
+
 img {
-    width: 220px
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .btn-primary {
@@ -27,19 +45,20 @@ img {
     background-color : #967E76;
 }
 
-.card {
-    margin: 5px;
-}
-
-.card>img {
-    margin-top: 5px;
-    width: 120px;
-    align-self: center;
+.btn-primary:hover {
+    border-color: #72615b;
+    background-color: #72615b;
 }
 
 .btn-outline-success {
     border-color: #967E76;
     color: #967E76;
+}
+
+.btn-outline-success:hover {
+    border-color: #967E76;
+    background-color: #967E76;
+    color: #FFFFFF;
 }
 
 footer {
@@ -52,4 +71,10 @@ footer {
 
 .icon {
     width: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #item-row {
+        display: block;
+    }
 }

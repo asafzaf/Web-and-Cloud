@@ -69,9 +69,9 @@
 <body>
     <div class="container-fluid">
         <div class="container text-start">
-            <div class="row">
+            <div class="row" id="item-row">
               <div class="col-4">
-                <img src=" <?php echo $row["url"] ?> " class="rounded float-start" alt="...">
+                <img src=" <?php echo $row["url"] ?> " class="rounded float-start" alt="  <?php echo $row["name"] . " image"; ?> ">
             </div>
               <div class="col-8">
                 <div class="row">
