@@ -24,6 +24,7 @@ article {
 
 .card {
     margin: 0 5px 0 5px;
+    max-width: 400px;
 }
 
 .card-body>p {
@@ -73,8 +74,36 @@ footer {
     width: 25px;
 }
 
-@media only screen and (max-width: 1000px) {
-    #item-row {
-        display: block;
+@media only screen and (max-width: 640px) {
+    .response {
+        visibility: hidden;
+        display: none;
+
+    }
+
+    .col-md-4 {
+        max-width: 120px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+    
+    a.card {
+        align-items: center;
+        max-width: 160px;
+        max-height: 280px;
+    }
+    
+    img {
+        max-width: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: small;
     }
 }
+
+

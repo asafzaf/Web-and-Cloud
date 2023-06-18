@@ -94,7 +94,7 @@
                         if($result->num_rows > 0) {
                             while($row = mysqli_fetch_array($result)) {
                               echo '  
-                                        <a class="card mb-3" style="max-width: 400px;" href="./item.php?id=' . $row["id"] . '">
+                                        <a class="card mb-3" href="./item.php?id=' . $row["id"] . '">
                                           <div class="row g-0">
                                             <div class="col-md-4">
                                               <img src="' . $row["url"] . '" class="card-img-top" alt="' . $row["name"] . ' image">
@@ -102,7 +102,7 @@
                                               <div class="col-md-8">
                                                 <div class="card-body">
                                                   <h5 class="card-title">' . $row["name"] . '</h5>
-                                                  <p class="card-text">' . $row["desc"] . '</p>
+                                                  <p class="card-text response">' . $row["desc"] . '</p>
                                                 </div>
                                               </div>
                                             </div>
